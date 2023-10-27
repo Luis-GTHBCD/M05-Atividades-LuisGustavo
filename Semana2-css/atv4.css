@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#hcb {
+    background-color: #000000;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    position: fixed;
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style-type: none;
+    width: 200px;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li {
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.menu li:nth-child(1){
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    top: 100px;
+}
+.menu li:nth-child(2){
+    background-color: rgb(0, 0, 0);
+    top: 100px;
+}
+.menu li:nth-child(3){
+    background-color: rgb(0, 0, 0);
+    top: 100px;
+}
+
+.texto h2{
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    text-align: left;
+    position: relative;
+    font-weight: 600;
+    font-size: larger;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.tabela h2{
+    margin-left: 20%;
+
+}
+
+.tabela {
+    position: relative;
+    top: 0; left: 19%;
+    justify-content: center;
+    margin-top: 100px;
+}
+  
+table {
+    width: 60%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #eeee;
+    font-weight: bold;
+    color: #000000;
+}
+
+button{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-top: 100px; margin-bottom: 100px;
+    margin-left: 6px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape {
+    background-color: #000000;
+    text-align: center;
+}
+
+.rodape a {
+    color: white;
+}
