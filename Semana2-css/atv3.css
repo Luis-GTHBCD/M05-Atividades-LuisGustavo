@@ -1,0 +1,60 @@
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.absolute-box {
+    position: absolute;
+    right: 300px;
+    top: 100px;
+    bottom: 0;
+    border: 2px solid red; 
+}
+
+
+.relative-box {
+    border: 2px solid blue;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 250px;
+    left: 350px;
+}
+      
+.float-box {
+    float: right;
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+}
+
+.rotate-box {
+    position: relative;
+    margin-left: 30px;
+    top: 400px;
+    height: 100px;
+    width: 100px;
+    transform: rotate(45deg);
+    border: 2px solid yellow;
+
+}
+
+.translate-box {
+    transform: translate(50px, 50px);
+    width: 150px;
+    height: 150px;
+    border: 2px solid purple;
+
+}
+  
+
+.z-index-box {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    background-color: blue;
+    z-index: 2;
+  }
+  
