@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+:root{
+    --main-color: #00ff00;
+    --black: #13131a;
+    --bg: #010103;
+    --border: .1rem solid rgba(0, 0, 0, 0.3);
+}
+
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: .5rem;
+}
+
+.cabecalho{
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    background-color: #000000;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+.cabecalho .navbar a{
+    margin:0 1rem;
+    font-size: 2rem;
+    font-weight: 450;
+    color: #15ff00;
+}
+
+.cabecalho .navbar a:hover{
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+
+.cabecalho .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+body {
+    background-color: #ffffff; 
+    color: #000000; 
+}
+  
+.border {
+    border-top: 2px solid #eee; 
+    width: 1000%; 
+    margin: 20px ; 
+}
+
+.titulo h1 {
+    color: #00ff40; 
+    font-size: 36px;
+    text-align: center;
+}
+  
+.meio{
+    margin-top: 150px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.menu a {
+    color: #00ff00; 
+    text-decoration: none;
+}
+
+
+.texto h2 {
+    font-size: 24px;
+    color: #000000; 
+}
+
+.texto p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.certificado h2 {
+    font-size: 24px;
+    color: #000000; 
+}
+
+.certificado p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 767px) {
+.logo {
+    display: none; 
+}
+
+.titulo,
+.menu,
+.texto,
+.navbar,
+.certificado {
+    width: 100%;
+}
+
+.texto h2, .certificado h2 {
+    font-size: 24px;
+}
+
+.texto p, .certificado p {
+    font-size: 16px;
+}
+}
+  
+
+
+@media screen and (min-width: 768px) {
+.titulo,
+.menu,
+.texto,
+.navbar,
+.certificado {
+    width: 100%;
+}
+
+.titulo h1 {
+    font-size: 36px;
+}
+
+.menu ul {
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.menu a {
+    font-size: 18px;
+}
+
+.texto h2, .certificado h2 {
+    font-size: 24px;
+}
+
+.texto p, .certificado p {
+    font-size: 18px;
+}
+
+
+.titulo,
+.menu {
+    width: 12%;
+}
+
+.texto {
+    width: 50%;
+}
+
+.certificado {
+    width: 100%;
+}
+}
+  
