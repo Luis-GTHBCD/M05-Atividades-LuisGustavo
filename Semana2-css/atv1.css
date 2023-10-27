@@ -1,0 +1,28 @@
+#paragrafo {
+    color: rgb(255, 34, 34);
+    font-size: 24px;
+  }
+  
+  #bloco {
+    background-color: rgb(251, 255, 12);
+  }
+  
+  ul li a {
+    text-decoration: none;
+  }
+  
+
+  div + div {
+    background-color: rgb(17, 184, 240);
+  }
+  
+  p ~ p {
+    font-weight: bold;
+  }
+  .container::before {
+    content: "Antes do conteúdo: ";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  
+  
