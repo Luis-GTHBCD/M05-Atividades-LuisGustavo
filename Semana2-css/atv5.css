@@ -49,7 +49,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 .cabecalho .navbar a{
-    margin:0 1rem;
+    margin:0 2rem;
     font-size: 2rem;
     font-weight: 450;
     color: #15ff00;
@@ -62,7 +62,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 
-.cabecalho .logo{
+.cabecalho{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,12 +82,6 @@ body {
     color: #000000; 
 }
   
-.border {
-    border-top: 2px solid #eee; 
-    width: 1000%; 
-    margin: 20px ; 
-}
-
 .titulo h1 {
     color: #00ff40; 
     font-size: 36px;
@@ -144,77 +138,62 @@ body {
     font-weight: 600;
 }
 
-
-@media screen and (max-width: 767px) {
-.logo {
-    display: none; 
-}
-
-.titulo,
-.menu,
-.texto,
-.navbar,
-.certificado {
+[class*=col-]{
+    float: left;
+    padding: 10px;
     width: 100%;
 }
 
-.texto h2, .certificado h2 {
-    font-size: 24px;
+.meio::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
-.texto p, .certificado p {
-    font-size: 16px;
-}
-}
-  
-
-
-@media screen and (min-width: 768px) {
-.titulo,
-.menu,
-.texto,
-.navbar,
-.certificado {
-    width: 100%;
-}
-
-.titulo h1 {
-    font-size: 36px;
-}
-
-.menu ul {
-    text-align: center;
-}
-
-.menu li {
-    display: inline;
-    margin: 0 20px;
-}
-
-.menu a {
-    font-size: 18px;
-}
-
-.texto h2, .certificado h2 {
-    font-size: 24px;
-}
-
-.texto p, .certificado p {
-    font-size: 18px;
+@media only screen and (min-width: 767px) {
+    .logo img{
+        display: inline;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .titulo{font-size: 29px;}
+    .col-s-1{width: 8.33%;}
+    .col-s-2{width: 16.66%;}
+    .col-s-3{width: 25%;}
+    .col-s-4{width: 33.33%;}
+    .col-s-5{width: 41.66%;}
+    .col-s-6{width: 50%;}
+    .col-s-7{width: 58.33%;}
+    .col-s-8{width: 66.66%;}
+    .col-s-9{width: 75%;}
+    .col-s-10{width: 83.33%;}
+    .col-s-11{width: 91.66%;}
+    .col-s-12{width: 100%;}
 }
 
 
-.titulo,
-.menu {
-    width: 12%;
+@media only screen and (min-width: 1024px) {
+    .logo img{
+        display: inline;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .titulo{font-size: 29px;}
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}
 }
 
-.texto {
-    width: 50%;
-}
 
-.certificado {
-    width: 100%;
-}
-}
-  
+
