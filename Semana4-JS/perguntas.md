@@ -27,6 +27,22 @@ O construtor é um método especial para criar e inicializar um objeto criado a 
 Herança em JavaScript refere-se à capacidade de um objeto herdar propriedades e métodos de outro objeto.
 Isso permite a reutilização de código e a criação de uma hierarquia de objetos.
 
+Exemplo de Herança em JavaScript:
+
+class Animal {
+    constructor(name){
+        this.name = name;
+    }
+}
+
+class aligator extends Animal{
+    constructor(name, strongjaw){
+        super(name);
+        this.strongjaw = strongjaw;
+
+    }
+}
+
 
 
  
